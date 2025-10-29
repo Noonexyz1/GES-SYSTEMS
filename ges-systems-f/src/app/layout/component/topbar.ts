@@ -46,14 +46,14 @@ import { Component } from '@angular/core';
           </button>
 
           <!--Logo empresa-->
-          <a href="https://www.entel.bo" class="flex items-center justify-between mr-4">
+          <a href="https://www.entel.bo" class="flex items-center justify-between mr-4 gap-2">
             <img
               src="logo-favicon.png"
-              class="mr-3 h-8"
+              class="h-8"
               alt="empresa Logo"
             />
             <span class="text-sky-500 self-center text-2xl font-semibold whitespace-nowrap">entel</span>
-            <span class="text-orange-400 self-center text-2xl font-semibold whitespace-nowrap">Systems</span>
+            <span class="text-orange-400 self-center text-2xl font-extrabold whitespace-nowrap">Systems</span>
           </a>
         </div>
 
