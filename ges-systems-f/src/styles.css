@@ -1,5 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 @import "flowbite/src/themes/default";
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
+
+:root{
+  --color-entel-blanco: #ffffff;
+  --color-entel-negro: #000000;
+
+  --color-entel-cyan: #16a6ec;
+  --color-entel-azul: #004f9c;
+
+  --color-entel-plateado: #adadad;
+  --color-entel-plomo: #3f3f3e;
+
+  --color-entel-verde: #00c746;
+  --color-entel-verde-oscuro: #006d26;
+
+  --color-entel-rosa: #f73cd8;
+  --color-entel-rosa-oscuro: #aa1892;
+
+  --color-entel-naranja: #fc7d15;
+  --color-entel-naranja-oscuro: #b3590f;
+
+  --color-entel-lila: #b54dff;
+  --color-entel-light-oscuro: #5f00a3;
+}
+
+
+@theme{
+  /*Establecemos paletra de colores*/
+  --color-entel-blanco: #ffffff;
+  --color-entel-negro: #000000;
+
+  --color-entel-cyan: #16a6ec;
+  --color-entel-azul: #004f9c;
+
+  --color-entel-plateado: #adadad;
+  --color-entel-plomo: #3f3f3e;
+
+  --color-entel-verde: #00c746;
+  --color-entel-verde-oscuro: #006d26;
+
+  --color-entel-rosa: #f73cd8;
+  --color-entel-rosa-oscuro: #aa1892;
+
+  --color-entel-naranja: #fc7d15;
+  --color-entel-naranja-oscuro: #b3590f;
+
+  --color-entel-lila: #b54dff;
+  --color-entel-light-oscuro: #5f00a3;
+
+  /*FUENTE*/
+  --font-sans: "Montserrat", sans-serif;
+}
